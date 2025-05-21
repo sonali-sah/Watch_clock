@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document-Object-Model</title>
+</head>
+<body>
+    <h1 class="wdn">Sonali,Web Dev Mastery
+        <span>WDM</span>
+        <span>Sonali-2</span>
+    </h1>
+    <script>
+        let element = document.querySelector('h1');
+        // console.log(element);
+        // console.log('text content = ',element.textContent);
+        // console.log('inner html = ',element.innerHTML);
+        // console.log('inner text = ',element.innerText);
+        // console.log('class name = ', element.className);
+        // console.log('style = ',element.style);
+
+        element.style.color = 'black'
+        element.style.backgroundColor = 'yellow'
+        element.textContent = 'Sonali'
+        console.log('class name before = ',element.className);
+        element.className = 'web'
+        console.log('class name after = ', element.className)
+
+    </script>
+</body>
+</html>

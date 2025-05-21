@@ -433,3 +433,22 @@ setTimeout(() => {
 }, 2000);
 
 */
+
+
+
+/*Sync and Async js
+
+///////////////////////----------Synchronous(sync)-----------/////////
+//line-by-run that's called sync
+console.log("start 1");
+console.log("start 2");
+console.log("start 3");
+
+//////////////////--------------Asynchronous(async)------------//////////
+console.log('ram');
+setTimeout(() => {
+    console.log('syama');
+}, 2000);
+console.log('thank u');
+
+*/
